@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def best_score(a_dictionary):
     sum1 = 0
     if a_dictionary == None:
