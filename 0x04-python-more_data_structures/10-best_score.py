@@ -1,11 +1,14 @@
 #!/usr/bin/python3
+
 def best_score(a_dictionary):
-    sum1 = 0
-    if a_dictionary == None or len(a_dictionary) == 0:
+    """Returns a key with the biggest integer value."""
+    if not isinstance(a_dictionary, dict) or len(a_dictionary) == 0:
         return None
-    else:
-        for x in a_dictionary:
-            if a_dictionary[x] > sum1:
-                sum1 = a_dictionary[x]
-                sum2 = x
-    return sum2
+
+    ret = list(a_dictionary.keys())[0]
+    big = a_dictionary[ret]
+    for k, v in a_dictionary.items():
+        if v > big:
+            big = v
+            ret = k
+    return (ret)
