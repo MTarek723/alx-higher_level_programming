@@ -18,7 +18,4 @@ if __name__ == "__main__":
         print("Nothing")
     else:
         print(instance.id, instance.name, sep=": ")
-<<<<<<< HEAD
-=======
         
->>>>>>> 4f22c53e86ee6b07d7611e354a647d2e364c56df
