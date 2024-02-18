@@ -28,4 +28,7 @@ if __name__ == "__main__":
 
     for row in rows_selected:
         print(row)
+<<<<<<< HEAD
+=======
         
+>>>>>>> 4f22c53e86ee6b07d7611e354a647d2e364c56df
