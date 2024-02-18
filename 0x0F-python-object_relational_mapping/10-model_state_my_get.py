@@ -18,3 +18,7 @@ if __name__ == "__main__":
         print(instance[0].id)
     except IndexError:
         print("Not found")
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 4f22c53e86ee6b07d7611e354a647d2e364c56df
